@@ -72,9 +72,41 @@ Broadcom - AirPortBrcm4360
 
 ### Special notes
 
+#### Unsupported Atheros Chipsets
+
+For certain AR9285/7 and AR9280 chipsets, you will need to apply a fake Device ID to your wireless card. This is due to AirPortAtheros40 having internal PCI ID checks meaning simply expanding the device-id list won't work.
+
+<details>
+<summary>Expanding Atheros Support</summary>
+
+To add support, grab [gfxutil](https://github.com/acidanthera/gfxutil/releases) and run the following:
+
+```sh
+/path/to/gfxutil | grep -i "pci168c:002b|pci168c:002e"
+```
+
+This should spit out something like this:
+
+```
+00:1f.6 pci168c:002e /PC00@0/PXSX@1F,6 = PciRoot(0x0)/Pci(0x1F,0x6)
+```
+
+The ending `PciRoot(0x0)/Pci(0x1F,0x6)` is what you want to add in your config.plist under `DeviceProperties -> Add` with the following properties:
+
+| Key | Type | Value |
+| :--- | :--- | :--- |
+| compatible | String | "pci168c,2a" |
+| device-id  | Data | 2A000000 |
+
+</details>
+<br>
+
 #### BCM4331
 
 Users of the 4331 chipset, note that macOS Big Sur actually still support your card partially, however will require a fake Device ID. This is a more reliable solution than using the patched IO80211 kext, however may break older versions of macOS as the fake ID is always applied in macOS(however DeviceProperties do don't exist in Windows or Linux, so no need to worry with those)
+
+<details>
+<summary>Expanding Broadcom Support</summary>
 
 To add support, grab [gfxutil](https://github.com/acidanthera/gfxutil/releases) and run the following:
 
@@ -94,3 +126,6 @@ The ending `PciRoot(0x0)/Pci(0x1F,0x6)` is what you want to add in your config.p
 | :--- | :--- | :--- |
 | compatible | String | "pci14e4,43ba" |
 | device-id  | Data | BA430000 |
+
+</details>
+<br>
