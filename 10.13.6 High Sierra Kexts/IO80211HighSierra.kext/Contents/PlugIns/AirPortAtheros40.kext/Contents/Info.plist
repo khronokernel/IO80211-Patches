@@ -69,7 +69,7 @@
 	</dict>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>com.apple.iokit.IO80211HSiera</key>
+		<key>com.apple.iokit.IO80211HighSierra</key>
 		<string>600.0</string>
 		<key>com.apple.iokit.IONetworkingFamily</key>
 		<string>3.1</string>

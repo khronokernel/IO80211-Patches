@@ -56,6 +56,8 @@
 			<string>IODefaultMatchCategory</string>
 			<key>IONameMatch</key>
 			<array>
+				<string>pci14e4,4331</string>
+				<string>pci14e4,4353</string>
 				<string>pci14e4,432b</string>
 			</array>
 			<key>IOProbeScore</key>

@@ -7,15 +7,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>IO80211Ctlina</string>
+	<string>IO80211Catalina</string>
 	<key>CFBundleGetInfoString</key>
 	<string>12.0, Copyright © 2005-2016 Apple Inc. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.iokit.IO80211Ctlina</string>
+	<string>com.apple.iokit.IO80211Catalina</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>IO80211Ctlina</string>
+	<string>IO80211Catalina</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
