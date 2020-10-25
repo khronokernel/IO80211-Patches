@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18A391024</string>
+	<string>17A405001</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -31,19 +31,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11O62d</string>
+	<string>10P70r</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>10.15.6</string>
+	<string>10.14</string>
 	<key>DTSDKBuild</key>
-	<string>19G829</string>
+	<string>18G1005</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15internal</string>
+	<string>macosx10.14internal</string>
 	<key>DTXcode</key>
-	<string>1140</string>
+	<string>1020</string>
 	<key>DTXcodeBuild</key>
-	<string>11O62d</string>
+	<string>10P70r</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Broadcom 802.11 PCI</key>
@@ -68,14 +68,14 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.15</string>
+	<string>10.14</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.driver.corecapture</key>
 		<string>1.0.0</string>
 		<key>com.apple.driver.mDNSOffloadUserClient</key>
 		<string>1.0.0d7</string>
-		<key>com.apple.iokit.IO80211Catalina</key>
+		<key>com.apple.iokit.IO80211Family</key>
 		<string>600.0</string>
 		<key>com.apple.iokit.IONetworkingFamily</key>
 		<string>3.1</string>
