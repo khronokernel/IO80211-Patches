@@ -26,20 +26,6 @@ Atheros - AirPortAtheros40
    pci168c,1c   = AR242x / AR542x
    pci168c,23   = AR5416
    pci168c,24   = AR5418
-   
-Broadcom - AirPortBrcm4331
-   pci14e4,4331 = BCM4331
-   pci14e4,4353 = BCM43224
-   pci14e4,432b = BCM4322
-   
-Broadcom - AirPortBrcm4360
-   pci14e4,4331 = BCM4331
-   pci14e4,4353 = BCM43224
-   
-Broadcom - AirPortBrcmNIC
-   pci14e4,43ba = BCM43602
-   pci14e4,43a3 = BCM4350
-   pci14e4,43a0 = BCM4360
 ```
 
 </details>
@@ -53,18 +39,7 @@ Broadcom - AirPortBrcmNIC
 
 ```
 Broadcom - AirPortBrcm4331
-   pci14e4,4331 = BCM4331
-   pci14e4,4353 = BCM43224
    pci14e4,432b = BCM4322
-
-Broadcom - AirPortBrcm4360
-   pci14e4,4331 = BCM4331
-   pci14e4,4353 = BCM43224
-   
-Broadcom - AirPortBrcmNIC
-   pci14e4,43ba = BCM43602
-   pci14e4,43a3 = BCM4350
-   pci14e4,43a0 = BCM4360
 ```
 
 </details>
