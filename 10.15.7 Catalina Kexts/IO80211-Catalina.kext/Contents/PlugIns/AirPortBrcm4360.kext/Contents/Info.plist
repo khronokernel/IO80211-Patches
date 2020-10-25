@@ -75,7 +75,7 @@
 		<string>1.0.0</string>
 		<key>com.apple.driver.mDNSOffloadUserClient</key>
 		<string>1.0.0d7</string>
-		<key>com.apple.iokit.IO80211Family</key>
+		<key>com.apple.iokit.IO80211Ctlina</key>
 		<string>600.0</string>
 		<key>com.apple.iokit.IONetworkingFamily</key>
 		<string>3.1</string>

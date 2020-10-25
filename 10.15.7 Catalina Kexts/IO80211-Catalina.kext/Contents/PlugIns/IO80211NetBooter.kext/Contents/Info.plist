@@ -58,7 +58,7 @@
 	<string>10.15</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>com.apple.iokit.IO80211Family</key>
+		<key>com.apple.iokit.IO80211Ctlina</key>
 		<string>1200.12.2b1</string>
 		<key>com.apple.iokit.IONetworkingFamily</key>
 		<string>3.0</string>
