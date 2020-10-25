@@ -8,12 +8,18 @@ Goal of this repo is the following:
 
 To do this, we'll pull the IO80211Family.kext from several versions of macOS, patch their symbols to not conflict with newer versions.
 
+Note: when booting older OSes, there can some conflict so we **highly** recommend users set the MinKernel to one of the following so the kexts are only injected in the appropriate OSes:
+
+* Mojave +   = 18.0.0
+* Catalina + = 19.0.0
+* Big Sur +  = 20.0.0
 
 ### Patches Files
 
 
 * [Patched High Sierra Kext]()
   * Recommended for Atheros users in 10.14+
+  * Set MinKernel to 18.0.0
   
 <details>
 <summary>Supported Devices</summary>
@@ -33,6 +39,7 @@ Atheros - AirPortAtheros40
 
 * [Patched Mojave Kext]()
   * Recommended for BCM4322 users in 10.15+
+  * Set MinKernel to 19.0.0
 
 <details>
 <summary>Supported Devices</summary>
@@ -47,6 +54,7 @@ Broadcom - AirPortBrcm4331
 
 * [Patched Catalina Kext]()
   * Recommended for BCM4331 and BCM43224 users in 11+
+  * Set MinKernel to 20.0.0
 
 <details>
 <summary>Supported Devices</summary>
@@ -64,8 +72,6 @@ Broadcom - AirPortBrcmNIC
 
 </details>
 <br>	
-
-  
 
 ### Special notes
 
