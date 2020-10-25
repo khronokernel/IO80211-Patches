@@ -69,9 +69,9 @@ Broadcom - AirPortBrcmNIC
 
 ### Special notes
 
-#### BCM94331
+#### BCM4331
 
-Users of the 94331 chipset, note that macOS Big Sur actually still support your card partially, however will require a fake Device ID. This is a more reliable solution than using the patched IO80211 kext, however may break older versions of macOS as the fake ID is always applied in macOS(however DeviceProperties do don't exist in Windows or Linux, so no need to worry with those)
+Users of the 4331 chipset, note that macOS Big Sur actually still support your card partially, however will require a fake Device ID. This is a more reliable solution than using the patched IO80211 kext, however may break older versions of macOS as the fake ID is always applied in macOS(however DeviceProperties do don't exist in Windows or Linux, so no need to worry with those)
 
 To add support, grab [gfxutil](https://github.com/acidanthera/gfxutil/releases) and run the following:
 
