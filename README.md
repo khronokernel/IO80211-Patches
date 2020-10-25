@@ -65,11 +65,6 @@ Broadcom - AirPortBrcm4331
 Broadcom - AirPortBrcm4360
    pci14e4,4331 = BCM4331
    pci14e4,4353 = BCM43224
-   
-Broadcom - AirPortBrcmNIC
-   pci14e4,43ba = BCM43602
-   pci14e4,43a3 = BCM4350
-   pci14e4,43a0 = BCM4360
 ```
 
 </details>
