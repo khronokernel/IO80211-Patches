@@ -17,24 +17,29 @@ To do this, we'll pull the IO80211Family.kext from several versions of macOS, pa
 <details>
 <summary>Supported Devices</summary>
 
-* Atheros(AirPortBrcm4360):
-  * pci168c,30 = AR93xx
-  * pci168c,2a = AR928X
-  * pci106b,86 = Unreleased device?
-  * pci168c,1c = AR242x / AR542x
-  * pci168c,23 = AR5416
-  * pci168c,24 = AR5418
-* Broadcom(AirPortBrcm4331):
-  * pci14e4,4331 = BCM4331
-  * pci14e4,4353 = BCM43224
-  * pci14e4,432b = BCM4322
-* Broadcom(AirPortBrcm4360):
-  * pci14e4,4331 = BCM4331
-  * pci14e4,4353 = BCM43224
-* Broadcom(AirPortBrcmNIC):
-  * pci14e4,43ba = BCM43602
-  * pci14e4,43a3 = BCM4350
-  * pci14e4,43a0 = BCM4360
+```
+Atheros - AirPortAtheros40
+   pci168c,30   = AR93xx
+   pci168c,2a   = AR928X
+   pci106b,86   = Unreleased device?
+   pci168c,1c   = AR242x / AR542x
+   pci168c,23   = AR5416
+   pci168c,24   = AR5418
+   
+Broadcom - AirPortBrcm4331
+   pci14e4,4331 = BCM4331
+   pci14e4,4353 = BCM43224
+   pci14e4,432b = BCM4322
+   
+Broadcom - AirPortBrcm4360
+   pci14e4,4331 = BCM4331
+   pci14e4,4353 = BCM43224
+   
+Broadcom - AirPortBrcmNIC
+   pci14e4,43ba = BCM43602
+   pci14e4,43a3 = BCM4350
+   pci14e4,43a0 = BCM4360
+```
 
 </details>
 <br>
@@ -44,17 +49,21 @@ To do this, we'll pull the IO80211Family.kext from several versions of macOS, pa
 <details>
 <summary>Supported Devices</summary>
 
-* Broadcom(AirPortBrcm4331):
-  * pci14e4,4331 = BCM4331
-  * pci14e4,4353 = BCM43224
-  * pci14e4,432b = BCM4322
-* Broadcom(AirPortBrcm4360):
-  * pci14e4,4331 = BCM4331
-  * pci14e4,4353 = BCM43224
-* Broadcom(AirPortBrcmNIC):
-  * pci14e4,43ba = BCM43602
-  * pci14e4,43a3 = BCM4350
-  * pci14e4,43a0 = BCM4360
+```
+Broadcom - AirPortBrcm4331
+   pci14e4,4331 = BCM4331
+   pci14e4,4353 = BCM43224
+   pci14e4,432b = BCM4322
+
+Broadcom - AirPortBrcm4360
+   pci14e4,4331 = BCM4331
+   pci14e4,4353 = BCM43224
+   
+Broadcom - AirPortBrcmNIC
+   pci14e4,43ba = BCM43602
+   pci14e4,43a3 = BCM4350
+   pci14e4,43a0 = BCM4360
+```
 
 </details>
 <br>
@@ -64,14 +73,17 @@ To do this, we'll pull the IO80211Family.kext from several versions of macOS, pa
 <details>
 <summary>Supported Devices</summary>
 
-* Broadcom(AirPortBrcm4360):
-  * pci14e4,4331 = BCM4331
-  * pci14e4,4353 = BCM43224
-* Broadcom(AirPortBrcmNIC):
-  * pci14e4,43ba = BCM43602
-  * pci14e4,43a3 = BCM4350
-  * pci14e4,43a0 = BCM4360
-	
+```
+Broadcom - AirPortBrcm4360
+   pci14e4,4331 = BCM4331
+   pci14e4,4353 = BCM43224
+   
+Broadcom - AirPortBrcmNIC
+   pci14e4,43ba = BCM43602
+   pci14e4,43a3 = BCM4350
+   pci14e4,43a0 = BCM4360
+```
+
 </details>
 <br>	
 
