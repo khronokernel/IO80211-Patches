@@ -8,11 +8,13 @@ Goal of this repo is the following:
 
 To do this, we'll pull the IO80211Family.kext from several versions of macOS, patch their symbols to not conflict with newer versions.
 
-Note: when booting older OSes, there can some conflict so we **highly** recommend users set the MinKernel to one of the following so the kexts are only injected in the appropriate OSes:
+Note: when booting older OSes, there can some conflict so we **highly** recommend users set the MinKernel in your config.plist(Kernel -> Add) to one of the following so the kexts are only injected in the appropriate OSes:
 
-* Mojave +   = 18.0.0
-* Catalina + = 19.0.0
-* Big Sur +  = 20.0.0
+```
+Mojave and newer   = 18.0.0
+Catalina and newer = 19.0.0
+Big Sur and newer  = 20.0.0
+```
 
 ### Patches Files
 
