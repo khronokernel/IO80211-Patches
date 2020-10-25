@@ -19,7 +19,7 @@ Big Sur and newer  = 20.0.0
 ### Patches Files
 
 
-* [Patched High Sierra Kext](./10.13.6 High Sierra Kexts/IO80211HighSierra.kext)
+* [Patched High Sierra Kext](./10.13.6-High-Sierra-Kexts/IO80211HighSierra.kext)
   * Recommended for Atheros users in 10.14+
   * Set MinKernel to 18.0.0
   
@@ -39,7 +39,7 @@ Atheros - AirPortAtheros40
 </details>
 <br>
 
-* [Patched Mojave Kext](./10.14.6 Mojave Kexts/IO80211Mojave.kext)
+* [Patched Mojave Kext](./10.14.6-Mojave-Kexts/IO80211Mojave.kext)
   * Recommended for BCM4322 users in 10.15+
   * Set MinKernel to 19.0.0
 
@@ -54,7 +54,7 @@ Broadcom - AirPortBrcm4331
 </details>
 <br>
 
-* [Patched Catalina Kext](./10.15.7 Catalina Kexts/IO80211Catalina.kext)
+* [Patched Catalina Kext](./10.15.7-Catalina-Kexts/IO80211Catalina.kext)
   * Recommended for BCM4331 and BCM43224 users in 11+
   * Set MinKernel to 20.0.0
 
