@@ -13,6 +13,7 @@ To do this, we'll pull the IO80211Family.kext from several versions of macOS, pa
 
 
 * [Patched High Sierra Kext]()
+  * Recommended for Atheros users in 10.14+
   
 <details>
 <summary>Supported Devices</summary>
@@ -45,6 +46,7 @@ Broadcom - AirPortBrcmNIC
 <br>
 
 * [Patched Mojave Kext]()
+  * Recommended for BCM4322 users in 10.15+
 
 <details>
 <summary>Supported Devices</summary>
@@ -69,6 +71,7 @@ Broadcom - AirPortBrcmNIC
 <br>
 
 * [Patched Catalina Kext]()
+  * Recommended for BCM4331 and BCM43224 users in 11+
 
 <details>
 <summary>Supported Devices</summary>
