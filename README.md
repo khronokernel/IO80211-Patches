@@ -11,16 +11,43 @@ To do this, we'll pull the IO80211Family.kext from several versions of macOS, pa
 Note: when booting older OSes, there can conflict so we **highly** recommend users set the MinKernel in your config.plist(Kernel -> Add) to one of the following so the kexts are only injected in the appropriate OSes:
 
 ```
+Sierra and newer   = 16.0.0
 Mojave and newer   = 18.0.0
 Catalina and newer = 19.0.0
 Big Sur and newer  = 20.0.0
 ```
 
-### Patches Files
+### Patched Files
 
+* [Patched El Capitan Kext](./10.11.6-El-Capitan-Kexts/IO80211ElCapitan.kext.zip)
+  * Recommended for legacy Broadcom users in 10.14+
+  * Set MinKernel to 16.0.0
+  
+<details>
+<summary>Supported Devices</summary>
+
+```
+Broadcom - AppleAirPortBrcm43224
+   pci106b,4.   = Unreleased device
+   pci14e4,4311 = BCM4311
+   pci14e4,4312 = BCM4311
+   pci14e4,4313 = BCM4311
+   pci14e4,4318 = BCM4318
+   pci14e4,4319 = BCM4318
+   pci14e4,431a = Unknown
+   pci14e4,4320 = BCM4306
+   pci14e4,4324 = BCM4309
+   pci14e4,4325 = BCM4306
+   pci14e4,4328 = BCM4321
+   pci14e4,432c = BCM4322
+   pci14e4,432d = BCM4322
+```
+
+</details>
+<br>
 
 * [Patched High Sierra Kext](./10.13.6-High-Sierra-Kexts/IO80211HighSierra.kext.zip)
-  * Recommended for Atheros users in 10.14+
+  * Recommended for Atheros users in 10.12+
   * Set MinKernel to 18.0.0
   
 <details>
@@ -30,7 +57,7 @@ Big Sur and newer  = 20.0.0
 Atheros - AirPortAtheros40
    pci168c,30   = AR93xx
    pci168c,2a   = AR928X
-   pci106b,86   = Unreleased device?
+   pci106b,86   = Unreleased device
    pci168c,1c   = AR242x / AR542x
    pci168c,23   = AR5416
    pci168c,24   = AR5418
