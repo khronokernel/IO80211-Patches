@@ -38,7 +38,7 @@ Broadcom - AppleAirPortBrcm43224
    pci14e4,4320 = BCM4306
    pci14e4,4324 = BCM4309
    pci14e4,4325 = BCM4306
-   pci14e4,4328 = BCM4321
+   pci14e4,4328 = BCM4328
    pci14e4,432c = BCM4322
    pci14e4,432d = BCM4322
 ```
