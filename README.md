@@ -3,12 +3,12 @@ Legacy Wireless Kexts
 
 Goal of this repo is the following:
 
-* Bring back semi-native support without requiring system modifictaions
+* Bring back semi-native support without requiring system modifications
 
 
 To do this, we'll pull the IO80211Family.kext from several versions of macOS, patch their symbols to not conflict with newer versions.
 
-Note: when booting older OSes, there can conflict so we **highly** recommend users set the MinKernel in your config.plist(Kernel -> Add) to one of the following so the kexts are only injected in the appropriate OSes:
+Note: when booting older OSes, there can be conflicts so we **highly** recommend users set the MinKernel in your config.plist(Kernel -> Add) to one of the following so the kexts are only injected in the appropriate OSes:
 
 ```
 Sierra and newer   = 16.0.0
